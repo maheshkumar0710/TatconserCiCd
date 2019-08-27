@@ -16,6 +16,6 @@ public class SimpleServlet extends HttpServlet {
    protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
          throws ServletException, IOException {
       resp.setContentType("text/plain");
-      resp.getWriter().write("Hello World13! Maven Web Project Example.");
+      resp.getWriter().write("Hello World14! Maven Web Project Example.");
    }
 }
